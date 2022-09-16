@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
 Name: Wolvesburg
-Version: 2.0.0
+Version: 3.0.1
 Summary: Edit .wolvesburg files
 Author-email: Example Author <spot@wolvesburg.com>
 Project-URL: Homepage, https://github.com/Pigly3/wolvesburg
-Project-URL: Bug Tracker, https://github.com/Pigly3/wolvesburg
+Project-URL: Bug Tracker, https://github.com/Pigly3/wolvesburg/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -20,3 +20,5 @@ deposit(filename without extension, data to deposit - object of Wolvesburg class
 Preparing data:
 object = Wolvesburg()
 object.property = value
+
+importtxt(filename without extension, object of Wolvesburg class)

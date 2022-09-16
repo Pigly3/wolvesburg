@@ -1,4 +1,7 @@
 import pickle
+listy = [[]]
+global listyval
+listyval = 0
 
 
 def get(filename: str):
@@ -19,4 +22,13 @@ def deposit(filename: str, data: Wolvesburg):
     f = open(filename, 'wb')
     pickle.dump(data, f)
     f.close()
+
+
+def importxt(filename, object:Wolvesburg):
+    filename += '.txt'
+    f = open(filename, 'r')
+    for i in f:
+        listy[listyval].append(i)
+    listyval += 1
+    object.txt = listy
 
